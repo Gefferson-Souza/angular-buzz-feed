@@ -68,35 +68,35 @@ export const quizMenteDoDesenvolvedor = {
       ]
     }
   ],
-  resultados: {
+  results: {
     A: {
-      descricao: "Arquiteto do Código! Sua paixão por algoritmos e estruturas de dados define seu estilo único de programação. Você pode se destacar como:",
+      description: "Arquiteto do Código! Sua paixão por algoritmos e estruturas de dados define seu estilo único de programação. Você pode se destacar como:",
       profissao: ['Engenheiro de Software', 'Desenvolvedor Backend']
     },
     B: {
-      descricao: "Inovador Iterativo! Sua abordagem experimental e adaptável o torna um mestre na resolução de problemas dinâmicos. Você pode se destacar como:",
-      profissao: ['Engenheiro de DevOps', 'Gerente de Produto']
+      description: "Inovador Iterativo! Sua abordagem experimental e adaptável o torna um mestre na resolução de problemas dinâmicos. Você pode se destacar como:",
+      profession: ['Engenheiro de DevOps', 'Gerente de Produto']
     },
     C: {
-      descricao: "Mágico da Biblioteca! Sua habilidade em aproveitar bibliotecas e frameworks faz de você um desenvolvedor ágil e eficiente. Você pode se destacar como:",
-      profissao: ['Desenvolvedor Full Stack', 'Engenheiro de Frontend']
+      description: "Mágico da Biblioteca! Sua habilidade em aproveitar bibliotecas e frameworks faz de você um desenvolvedor ágil e eficiente. Você pode se destacar como:",
+      profession: ['Desenvolvedor Full Stack', 'Engenheiro de Frontend']
     },
     D: {
-      descricao: "Desbravador da Elegância! Sua busca pela elegância e expressividade define seu código distintivo. Você pode se destacar como:",
-      profissao: ['Desenvolvedor de UI/UX', 'Designer de Interação']
+      description: "Desbravador da Elegância! Sua busca pela elegância e expressividade define seu código distintivo. Você pode se destacar como:",
+      profession: ['Desenvolvedor de UI/UX', 'Designer de Interação']
     },
     E: {
-      descricao: "Engenheiro Empresarial! Sua expertise em desenvolvimento robusto o torna apto para desafios empresariais complexos. Você pode se destacar como:",
-      profissao: ['Arquiteto de Soluções', 'Engenheiro de Sistemas']
+      description: "Engenheiro Empresarial! Sua expertise em desenvolvimento robusto o torna apto para desafios empresariais complexos. Você pode se destacar como:",
+      profession: ['Arquiteto de Soluções', 'Engenheiro de Sistemas']
     },
     F: {
-      descricao: "Desenvolvedor de Inteligência Artificial! Sua habilidade em construir funcionalidades de IA em aplicações de software o torna um ativo valioso no mundo da tecnologia. Você pode se destacar como:",
-      profissao: ['Engenheiro de Machine Learning', 'Cientista de Dados']
+      description: "Desenvolvedor de Inteligência Artificial! Sua habilidade em construir funcionalidades de IA em aplicações de software o torna um ativo valioso no mundo da tecnologia. Você pode se destacar como:",
+      profession: ['Engenheiro de Machine Learning', 'Cientista de Dados']
     },
     G: {
-      descricao: "Visionário do Software! Sua paixão por criar novas soluções e explorar novas tecnologias define seu estilo único. Você pode se destacar como:",
-      profissao: ['Engenheiro de Software Embarcado', 'Desenvolvedor de Aplicativos Móveis']
+      description: "Visionário do Software! Sua paixão por criar novas soluções e explorar novas tecnologias define seu estilo único. Você pode se destacar como:",
+      profession: ['Engenheiro de Software Embarcado', 'Desenvolvedor de Aplicativos Móveis']
     }
   },
-  observacao: "Este quiz é uma viagem pelo vasto universo da programação e não define sua habilidade real como desenvolvedor. Compartilhe seus resultados nas redes sociais, desafie seus colegas de trabalho e divirta-se explorando os diferentes tipos de mentes de desenvolvedores!"
+  observation: "Este quiz é uma viagem pelo vasto universo da programação e não define sua habilidade real como desenvolvedor. Compartilhe seus resultados nas redes sociais, desafie seus colegas de trabalho e divirta-se explorando os diferentes tipos de mentes de desenvolvedores!"
   };

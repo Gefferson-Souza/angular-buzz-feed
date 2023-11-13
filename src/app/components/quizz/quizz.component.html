@@ -3,6 +3,11 @@
   title="{{title}}"
   titleDescription="{{titleDescription}}"
   ></app-logo-title>
-  <app-questions></app-questions>
-  <app-result></app-result>
+  <app-questions
+  *ngIf="!finished"
+  [answers]="answers"
+  [question] = "questionTitle"
+  ></app-questions>
+  <app-result
+  *ngIf="finished"></app-result>
 </section>
