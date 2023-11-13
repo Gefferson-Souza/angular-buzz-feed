@@ -1,0 +1,61 @@
+{
+  "Quiz": "Mente do Desenvolvedor - Descubra Seu Tipo de Programador Atualizado",
+  "Descrição": "Bem-vindo ao 'Mente do Desenvolvedor' - um quiz atualizado para revelar seu verdadeiro tipo de programador! Adentre o vasto mundo do desenvolvimento de software e descubra as nuances que definem sua abordagem única. Prepare-se para uma jornada de código, desafios e autodescoberta!",
+  "Perguntas": {
+    "Escolha sua Linguagem de Programação Preferida": {
+      "A": "Python, porque você gosta de serpentes",
+      "B": "Java, porque você não pode viver sem café",
+      "C": "JavaScript, porque você gosta de viver no limite",
+      "D": "C#, porque você gosta de música",
+      "E": "SQL, porque você é chato",
+      "F": "Rust, porque você gosta de coisas antigas",
+      "G": "Swift, porque você gosta de correr"
+    },
+    "Abordagem de Resolução de Problemas": {
+      "A": "Algoritmos e Estruturas de Dados são a base",
+      "B": "Experimentação e iteração constante",
+      "C": "Soluções prontas e bibliotecas externas",
+      "D": "Abordagem orientada por testes (TDD)",
+      "E": "Análise de dados e machine learning",
+      "F": "Desenvolvimento orientado a objetos",
+      "G": "Programação funcional"
+    },
+    "Ambiente de Desenvolvimento Ideal": {
+      "A": "Terminal e editores de texto minimalistas",
+      "B": "IDE com recursos avançados e debugging robusto",
+      "C": "Ambiente de desenvolvimento integrado na nuvem",
+      "D": "Editores colaborativos online",
+      "E": "Ambiente personalizado com configurações meticulosas",
+      "F": "Ambientes de desenvolvimento de realidade virtual",
+      "G": "Plataformas de desenvolvimento de código aberto"
+    },
+    "Relação com Bugs no Código": {
+      "A": "Desfruta da caça aos bugs, considera uma parte essencial do processo",
+      "B": "Vê bugs como oportunidades de aprendizado",
+      "C": "Prefere evitar bugs desde o início com testes rigorosos",
+      "D": "Aceita bugs como parte inevitável, foca na entrega rápida",
+      "E": "Utiliza ferramentas automatizadas para detecção de bugs",
+      "F": "Utiliza a depuração em pares para resolver bugs",
+      "G": "Utiliza técnicas de programação defensiva para prevenir bugs"
+    },
+    "Projeto Pessoal dos Sonhos": {
+      "A": "Desenvolver uma nova linguagem de programação",
+      "B": "Criar um aplicativo revolucionário",
+      "C": "Contribuir para projetos de código aberto populares",
+      "D": "Construir um sistema de inteligência artificial autônomo",
+      "E": "Desenvolver uma plataforma de realidade virtual",
+      "F": "Criar um jogo de computador do zero",
+      "G": "Desenvolver um aplicativo móvel inovador"
+    }
+  },
+  "Resultados": {
+    "A": "Arquiteto do Código! Sua paixão por algoritmos e estruturas de dados define seu estilo único de programação. Você pode se destacar como um Engenheiro de Software ou Desenvolvedor Backend.",
+    "B": "Inovador Iterativo! Sua abordagem experimental e adaptável o torna um mestre na resolução de problemas dinâmicos. Você pode se destacar como um Engenheiro de DevOps ou Gerente de Produto.",
+    "C": "Mágico da Biblioteca! Sua habilidade em aproveitar bibliotecas e frameworks faz de você um desenvolvedor ágil e eficiente. Você pode se destacar como um Desenvolvedor Full Stack ou Engenheiro de Frontend.",
+    "D": "Desbravador da Elegância! Sua busca pela elegância e expressividade define seu código distintivo. Você pode se destacar como um Desenvolvedor de UI/UX ou Designer de Interação.",
+    "E": "Engenheiro Empresarial! Sua expertise em desenvolvimento robusto o torna apto para desafios empresariais complexos. Você pode se destacar como um Arquiteto de Soluções ou Engenheiro de Sistemas.",
+    "F": "Desenvolvedor de Inteligência Artificial! Sua habilidade em construir funcionalidades de IA em aplicações de software o torna um ativo valioso no mundo da tecnologia. Você pode se destacar como um Engenheiro de Machine Learning ou Cientista de Dados.",
+    "G": "Visionário do Software! Sua paixão por criar novas soluções e explorar novas tecnologias define seu estilo único. Você pode se destacar como um Engenheiro de Software Embarcado ou Desenvolvedor de Aplicativos Móveis."
+  },
+  "Observação": "Este quiz é uma viagem pelo vasto universo da programação e não define sua habilidade real como desenvolvedor. Compartilhe seus resultados nas redes sociais, desafie seus colegas de trabalho e divirta-se explorando os diferentes tipos de mentes de desenvolvedores!"
+}
