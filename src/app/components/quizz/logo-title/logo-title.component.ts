@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-logo-title',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./logo-title.component.scss']
 })
 export class LogoTitleComponent implements OnInit {
+
+  @Input()
+  title: string = '';
+  @Input()
+  titleDescription:string = '';
 
   constructor() { }
 

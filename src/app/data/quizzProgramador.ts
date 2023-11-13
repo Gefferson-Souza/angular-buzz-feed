@@ -1,5 +1,5 @@
-const quizMenteDoDesenvolvedor = {
-  title: "Mente do Desenvolvedor - Descubra Seu Tipo de Programador Atualizado",
+export const quizMenteDoDesenvolvedor = {
+  title: "Mente do Desenvolvedor - Descubra Seu Tipo de Programador",
   description: "Bem-vindo ao 'Mente do Desenvolvedor' - um quiz atualizado para revelar seu verdadeiro tipo de programador! Adentre o vasto mundo do desenvolvimento de software e descubra as nuances que definem sua abordagem única. Prepare-se para uma jornada de código, desafios e autodescoberta!",
   questions: [
     {

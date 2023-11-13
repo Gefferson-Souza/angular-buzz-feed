@@ -1,5 +1,9 @@
 .logo-title-container {
   margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   img{
     width: 100%;
     max-width: 500px;
@@ -8,5 +12,10 @@
   }
   .title {
     margin: 1rem auto;
+  }
+  p{
+    max-width: 768px;
+    width: 100%;
+    padding: 0rem 1rem;
   }
 }

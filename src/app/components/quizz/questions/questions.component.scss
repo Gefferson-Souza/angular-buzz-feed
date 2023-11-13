@@ -1,16 +1,16 @@
-.questions-container{
+.questions-container {
   border: 1px solid var(--border-color);
   border-radius: 0.5rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 
-  .questions-title{
+  .questions-title {
     font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
     padding: 1rem;
   }
 
-  .options{
+  .options {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,22 +20,26 @@
 
     width: 100%;
 
-    .btn-option{
-      --primary-color: green;
+    .btn-option {
       width: 100%;
-      padding: 0.5rem;
+      padding: 1rem 0.5rem;
       border-radius: 0.5rem;
       border: 1px solid var(--primary-color);
       cursor: pointer;
       color: var(--primary-color);
-      background-color: var(--background-color);
+      background-color: transparent;
+      display: block;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      font-size: large;
+      font-weight: 600;
 
-      &:hover{
+      &:hover {
         background-color: var(--primary-color);
-        color: white;
+        color: var(--text-color);
       }
 
-      &:active{
+      &:active {
         transform: scale(0.9);
       }
     }

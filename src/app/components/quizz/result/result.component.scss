@@ -1,0 +1,25 @@
+.result-container{
+  background-color: var(--secondary-color);
+  max-width: 768px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+  gap: 1rem;
+
+  .result-profession-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    .result-profession{
+      flex-basis: 40%;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}
