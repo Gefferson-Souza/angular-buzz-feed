@@ -1,4 +1,4 @@
-.result-container{
+.result-container {
   background-color: var(--secondary-color);
   max-width: 768px;
   width: 100%;
@@ -9,14 +9,52 @@
   padding: 1rem 1rem;
   gap: 1rem;
 
-  .result-profession-container{
+  .result-description {
+    font-size: larger;
+  }
+
+  .result-profession-container {
+    .result-profession {
+      a {
+        text-decoration: none;
+        color: var(--text-color);
+        font-weight: bold;
+        text-wrap: nowrap;
+        font-size: larger;
+        display: inline-block;
+        width: 100%;
+        padding: 1rem 0.5rem;
+        border-radius: 0.5rem;
+        border: 1px solid var(--primary-color);
+        cursor: pointer;
+        color: var(--primary-color);
+        background-color: transparent;
+        display: block;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: large;
+        font-weight: 600;
+
+        &:hover {
+          background-color: var(--primary-color);
+          color: var(--text-color);
+        }
+
+        &:active {
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+
+  .result-profession-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    .result-profession{
+    .result-profession {
       flex-basis: 40%;
       display: inline-block;
       text-align: center;

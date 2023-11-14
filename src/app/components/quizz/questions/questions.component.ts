@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-questions',
@@ -11,7 +11,12 @@ export class QuestionsComponent implements OnInit {
   question: string = '';
 
   @Input()
-  answers: any[] = [{}];
+  options: any[] = [{}];
+
+  @Output()
+  answersChange: EventEmitter<string[]> = new EventEmitter<string[]>()
+
+  answers: string[] = [];
 
 
   constructor() { }
@@ -19,8 +24,14 @@ export class QuestionsComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  teste(alias: any) {
-    console.log(alias)
+  addAnswer(alias: any) {
+    this.answers.push(alias)
+    this.emitAnswers()
   }
+
+  private emitAnswers() {
+    this.answersChange.emit(this.answers);
+  }
+
 
 }

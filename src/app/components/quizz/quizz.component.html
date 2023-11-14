@@ -5,9 +5,14 @@
   ></app-logo-title>
   <app-questions
   *ngIf="!finished"
-  [answers]="answers"
+  [options]="options"
   [question] = "questionTitle"
+  (answersChange)="getAnswers($event)"
   ></app-questions>
   <app-result
-  *ngIf="finished"></app-result>
+  [description]="resultDescription"
+  [professions]="professions"
+  [observation]="observation"
+  *ngIf="finished"
+  ></app-result>
 </section>

@@ -1,9 +1,11 @@
 <div class="result-container">
   <h2>O seu resultado é:</h2>
-  <p class="result-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, praesentium eveniet dolorum rerum nulla minima, itaque quo enim, quos vitae nisi inventore iusto animi quibusdam molestiae architecto magni. Possimus, omnis?</p>
+  <p class="result-description">{{description}}</p>
   <div class="result-profession-container">
-    <span class="result-profession"><a href="#" target="_blank" rel="noopener noreferrer">DESENVOLVEDOR BACKEND</a></span>
-    <span class="result-profession"><a href="#" target="_blank" rel="noopener noreferrer">DESENVOLVEDOR BACKEND</a></span>
+    <span class="result-profession" *ngFor="let profession of professions">
+      <a href="{{profession.link}}" target="_blank" rel="noopener noreferrer">{{profession.name}}</a>
+    </span>
   </div>
-  <small></small>
+  <a [routerLink]="''" target="_blank" rel="noopener noreferrer"><button>Tentar Novamente</button></a>
+  <small>{{observation}}</small>
 </div>

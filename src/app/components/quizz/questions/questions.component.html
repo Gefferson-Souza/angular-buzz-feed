@@ -3,6 +3,8 @@
     <h3>{{question}}</h3>
   </div>
   <div class="options">
-    <button (click)="teste(answer.alias)" class="btn-option" *ngFor="let answer of answers">{{answer.name}}</button>
+    <button
+    (click)="addAnswer(option.alias)"
+    class="btn-option" *ngFor="let option of options">{{option.name}}</button>
   </div>
 </div>

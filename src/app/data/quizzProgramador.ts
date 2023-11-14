@@ -1,4 +1,6 @@
-export const quizMenteDoDesenvolvedor = {
+import { Quizz } from "../interfaces/questions";
+
+export const quizMenteDoDesenvolvedor: Quizz = {
   title: "Mente do Desenvolvedor - Descubra Seu Tipo de Programador",
   description: "Bem-vindo ao 'Mente do Desenvolvedor' - um quiz atualizado para revelar seu verdadeiro tipo de programador! Adentre o vasto mundo do desenvolvimento de software e descubra as nuances que definem sua abordagem única. Prepare-se para uma jornada de código, desafios e autodescoberta!",
   questions: [
@@ -66,37 +68,118 @@ export const quizMenteDoDesenvolvedor = {
         { id: 6, name: "Criar um jogo de computador do zero", alias: "F" },
         { id: 7, name: "Desenvolver um aplicativo móvel inovador", alias: "G" }
       ]
+    },
+    {
+      id: 6,
+      question: "Seu Estilo de Trabalho em Equipe",
+      options: [
+        { id: 1, name: "Líder natural, gosta de tomar decisões", alias: "A" },
+        { id: 2, name: "Colaborador, gosta de contribuir com ideias", alias: "B" },
+        { id: 3, name: "Ouvinte, prefere seguir as ideias dos outros", alias: "C" },
+        { id: 4, name: "Independente, prefere trabalhar sozinho", alias: "D" },
+        { id: 5, name: "Mediador, gosta de resolver conflitos", alias: "E" },
+        { id: 6, name: "Organizador, gosta de definir tarefas", alias: "F" },
+        { id: 7, name: "Inovador, sempre propõe novas ideias", alias: "G" }
+      ]
+    },
+    {
+      id: 7,
+      question: "Sua Atitude em Relação à Aprendizagem Contínua",
+      options: [
+        { id: 1, name: "Curioso, sempre buscando novos conhecimentos", alias: "A" },
+        { id: 2, name: "Pragmático, aprende o necessário para o trabalho", alias: "B" },
+        { id: 3, name: "Visionário, aprende tecnologias futuras", alias: "C" },
+        { id: 4, name: "Especialista, aprofunda-se em uma área específica", alias: "D" },
+        { id: 5, name: "Diversificado, gosta de aprender um pouco de tudo", alias: "E" },
+        { id: 6, name: "Adaptável, aprende rapidamente quando necessário", alias: "F" },
+        { id: 7, name: "Persistente, não desiste até dominar um tópico", alias: "G" }
+      ]
+    },
+    {
+      id: 8,
+      question: "Se você fosse um algoritmo, qual seria?",
+      options: [
+        { id: 1, name: "Busca binária, porque você é direto ao ponto", alias: "A" },
+        { id: 2, name: "Ordenação por bolha, porque você gosta de levar as coisas com calma", alias: "B" },
+        { id: 3, name: "DFS (Busca em profundidade), porque você gosta de explorar todas as possibilidades", alias: "C" },
+        { id: 4, name: "BFS (Busca em largura), porque você gosta de manter suas opções abertas", alias: "D" },
+        { id: 5, name: "Algoritmo de Dijkstra, porque você sempre encontra o caminho mais curto", alias: "E" },
+        { id: 6, name: "Algoritmo de Huffman, porque você é eficiente na compressão de informações", alias: "F" },
+        { id: 7, name: "Algoritmo de Knapsack, porque você é bom em resolver problemas complexos", alias: "G" }
+      ]
+    },
+    {
+      id: 10,
+      question: "Se você fosse um bug de software, qual seria?",
+      options: [
+        { id: 1, name: "Erro de sintaxe, porque às vezes você não faz sentido", alias: "A" },
+        { id: 2, name: "Loop infinito, porque você adora repetir as mesmas histórias", alias: "B" },
+        { id: 3, name: "Vazamento de memória, porque você esquece as coisas rapidamente", alias: "C" },
+        { id: 4, name: "Erro de segmentação, porque você não respeita limites", alias: "D" },
+        { id: 5, name: "Deadlock, porque você é teimoso e não cede", alias: "E" },
+        { id: 6, name: "Erro de lógica, porque às vezes você não é muito lógico", alias: "F" },
+        { id: 7, name: "Erro de tempo de execução, porque você é imprevisível", alias: "G" }
+      ]
     }
   ],
   results: {
     A: {
       description: "Arquiteto do Código! Sua paixão por algoritmos e estruturas de dados define seu estilo único de programação. Você pode se destacar como:",
-      profissao: ['Engenheiro de Software', 'Desenvolvedor Backend']
+      profession: [
+        { name: 'Engenheiro de Software', link: 'https://www.freecodecamp.org/portuguese/news/como-se-tornar-um-engenheiro-de-software-plano-de-acao-para-2023/' },
+        { name: 'Desenvolvedor Backend', link: 'https://www.dio.me/careers/back-end' }
+      ]
     },
     B: {
       description: "Inovador Iterativo! Sua abordagem experimental e adaptável o torna um mestre na resolução de problemas dinâmicos. Você pode se destacar como:",
-      profession: ['Engenheiro de DevOps', 'Gerente de Produto']
+      profession: [
+        { name: 'Engenheiro de DevOps', link: 'https://www.dio.me/careers/cloud-devops' },
+        { name: 'Especialista em CyberSegurança', link: 'https://www.dio.me/curso-cybersecurity' }
+      ]
     },
     C: {
       description: "Mágico da Biblioteca! Sua habilidade em aproveitar bibliotecas e frameworks faz de você um desenvolvedor ágil e eficiente. Você pode se destacar como:",
-      profession: ['Desenvolvedor Full Stack', 'Engenheiro de Frontend']
+      profession: [
+        { name: 'Desenvolvedor Full Stack', link: 'https://www.dio.me/curso-typescript' },
+        { name: 'Desenvolvedor Frontend', link: 'https://www.dio.me/careers/front-end' }
+      ]
     },
     D: {
       description: "Desbravador da Elegância! Sua busca pela elegância e expressividade define seu código distintivo. Você pode se destacar como:",
-      profession: ['Desenvolvedor de UI/UX', 'Designer de Interação']
+      profession: [
+        { name: 'Desenvolvedor de UX', link: 'https://www.dio.me/curso-ux-design' },
+        { name: 'CSS Developer', link: 'https://www.dio.me/curso-css' }
+      ]
     },
     E: {
       description: "Engenheiro Empresarial! Sua expertise em desenvolvimento robusto o torna apto para desafios empresariais complexos. Você pode se destacar como:",
-      profession: ['Arquiteto de Soluções', 'Engenheiro de Sistemas']
+      profession: [
+        { name: 'Arquiteto de Soluções', link: 'https://roadmap.sh/software-architect' },
+        { name: 'Engenheiro de Sistemas', link: 'https://roadmap.sh/system-design' }
+      ]
     },
     F: {
       description: "Desenvolvedor de Inteligência Artificial! Sua habilidade em construir funcionalidades de IA em aplicações de software o torna um ativo valioso no mundo da tecnologia. Você pode se destacar como:",
-      profession: ['Engenheiro de Machine Learning', 'Cientista de Dados']
+      profession: [
+        { name: 'Engenheiro de Machine Learning', link: 'https://www.dio.me/curso-machine-learning' },
+        { name: 'Cientista de Dados', link: 'https://roadmap.sh/ai-data-scientist' }
+      ]
     },
     G: {
       description: "Visionário do Software! Sua paixão por criar novas soluções e explorar novas tecnologias define seu estilo único. Você pode se destacar como:",
-      profession: ['Engenheiro de Software Embarcado', 'Desenvolvedor de Aplicativos Móveis']
+      profession: [
+        { name: 'Engenheiro de Software Embarcado', link: 'https://github.com/m3y54m/Embedded-Engineering-Roadmap' },
+        { name: 'Desenvolvedor de Aplicativos Móveis', link: 'https://www.dio.me/careers/mobile' }
+      ]
     }
   },
   observation: "Este quiz é uma viagem pelo vasto universo da programação e não define sua habilidade real como desenvolvedor. Compartilhe seus resultados nas redes sociais, desafie seus colegas de trabalho e divirta-se explorando os diferentes tipos de mentes de desenvolvedores!"
-  };
+};
+
+
+
+
+
+
+
+
