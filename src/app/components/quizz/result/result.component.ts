@@ -21,4 +21,8 @@ export class ResultComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  refresh(): void {
+    window.location.reload();
+  }
+
 }

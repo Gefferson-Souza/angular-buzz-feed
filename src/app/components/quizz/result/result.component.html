@@ -6,6 +6,6 @@
       <a href="{{profession.link}}" target="_blank" rel="noopener noreferrer">{{profession.name}}</a>
     </span>
   </div>
-  <a [routerLink]="''" target="_blank" rel="noopener noreferrer"><button>Tentar Novamente</button></a>
+  <button (click)="refresh()" >Tentar Novamente</button>
   <small>{{observation}}</small>
 </div>

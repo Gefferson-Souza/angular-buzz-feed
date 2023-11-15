@@ -17,6 +17,7 @@ export class QuizzComponent implements OnInit {
   questions: any[] = [];
   currentQuestion: any;
   questionTitle: string = '';
+  
   currentIndex: number = 0;
   questionsLength: number = 0;
 
@@ -32,6 +33,8 @@ export class QuizzComponent implements OnInit {
 
   mostFrequent: string = '';
   finished: boolean = false;
+
+  progressBar: number = 0;
 
   constructor() { }
 
@@ -51,9 +54,7 @@ export class QuizzComponent implements OnInit {
       this.options = this.currentQuestion.options.sort(() => Math.random() - 0.5);
 
       this.allResults = results;
-      this.observation = observation
-
-      console.log(results)
+      this.observation = observation;
 
     }
   }
@@ -72,6 +73,9 @@ export class QuizzComponent implements OnInit {
       this.questionTitle = this.currentQuestion.question;
 
       this.options = this.currentQuestion.options.sort(() => Math.random() - 0.5);
+
+      this.progressBar = ((this.currentIndex + 1) * 100) / this.questionsLength;
+
     } else {
       this.mostFrequent = this.mostFrequentItem(this.selectedAnswers);
       this.currentResult = this.allResults[this.mostFrequent];

@@ -109,7 +109,7 @@ export const quizMenteDoDesenvolvedor: Quizz = {
       ]
     },
     {
-      id: 10,
+      id: 9,
       question: "Se você fosse um bug de software, qual seria?",
       options: [
         { id: 1, name: "Erro de sintaxe, porque às vezes você não faz sentido", alias: "A" },
