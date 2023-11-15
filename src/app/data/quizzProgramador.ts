@@ -1,8 +1,8 @@
 import { Quizz } from "../interfaces/questions";
 
 export const quizMenteDoDesenvolvedor: Quizz = {
-  title: "Mente do Desenvolvedor - Descubra Seu Tipo de Programador",
-  description: "Bem-vindo ao 'Mente do Desenvolvedor' - um quiz atualizado para revelar seu verdadeiro tipo de programador! Adentre o vasto mundo do desenvolvimento de software e descubra as nuances que definem sua abordagem única. Prepare-se para uma jornada de código, desafios e autodescoberta!",
+  title: "Mente do Desenvolvedor - Descubra o seu DEV TYPE",
+  description: "Bem-vindo ao 'Mente do Desenvolvedor' - um quiz feito para revelar seu verdadeiro tipo de DEV! Adentre o vasto mundo do desenvolvimento de software e descubra as nuances que definem sua abordagem única. Prepare-se para uma jornada de código, desafios e autodescoberta!",
   questions: [
     {
       id: 1,

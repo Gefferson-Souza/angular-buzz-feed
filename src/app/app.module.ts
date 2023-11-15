@@ -9,6 +9,7 @@ import { LogoTitleComponent } from './components/quizz/logo-title/logo-title.com
 import { QuestionsComponent } from './components/quizz/questions/questions.component';
 import { ResultComponent } from './components/quizz/result/result.component';
 import { ProgressBarComponent } from './components/quizz/progress-bar/progress-bar.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +19,7 @@ import { ProgressBarComponent } from './components/quizz/progress-bar/progress-b
     QuestionsComponent,
     ResultComponent,
     ProgressBarComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

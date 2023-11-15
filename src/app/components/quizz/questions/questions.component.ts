@@ -27,6 +27,11 @@ export class QuestionsComponent implements OnInit {
   addAnswer(alias: any) {
     this.answers.push(alias)
     this.emitAnswers()
+    const btnEl = document.querySelectorAll('#btn');
+    btnEl.forEach(btn => {
+      console.log(btn.getAttributeNames())
+    })
+    console.log()
   }
 
   private emitAnswers() {

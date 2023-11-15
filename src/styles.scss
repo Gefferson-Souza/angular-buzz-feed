@@ -1,10 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --background-color: #1f1147;
+  /*   --background-color: #1f1147;
   --text-color: #ffffff;
   --border-color: #4224d9;
   --primary-color: #18ab29;
-  --secondary-color: #210239; 
+  --secondary-color: #210239;
+  --font-scale: 1;
+  --cubic: cubic-bezier(0.5, 0, 0.5, 1); */
+  --background-color: #264653;
+  --text-color: #ffffff;
+  --border-color: #e9c46a;
+  --primary-color: #18ab29;
+  --secondary-color: #210239;
+  --font-scale: 1;
+  --cubic: cubic-bezier(0.5, 0, 0.5, 1);
+  --bar: #f4a261;
 }
 
 *,
@@ -18,4 +28,9 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  font-size: calc(100% * var(--font-scale));
+  display: flex;
+  flex: column wrap;
+  min-height: 100vh;
+  justify-content: center;
 }

@@ -4,16 +4,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  img{
+  img {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
     display: block;
+    border-radius: 1rem;
   }
   .title {
     margin: 1rem auto;
   }
-  p{
+  p {
     max-width: 768px;
     width: 100%;
     padding: 0rem 1rem;
