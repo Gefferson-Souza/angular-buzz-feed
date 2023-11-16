@@ -17,7 +17,7 @@ export class QuizzComponent implements OnInit {
   questions: any[] = [];
   currentQuestion: any;
   questionTitle: string = '';
-  
+
   currentIndex: number = 0;
   questionsLength: number = 0;
 

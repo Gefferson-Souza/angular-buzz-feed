@@ -6,9 +6,32 @@
       <a href="{{profession.link}}" target="_blank" rel="noopener noreferrer">{{profession.name}}</a>
     </span>
   </div>
-  <button (click)="refresh()" >Tentar Novamente</button>
-  <small>{{observation}}</small>
-  <div class="share">
-    <button (click)="shareOnSocialMedia()" >Twitter</button>
+  <button class="btn-refresh" (click)="refresh()">Tentar Novamente</button>
+  <div class="social-media-container">
+    <h4>Compartilhe nas redes sociais!</h4>
+
+    <div class="social-media-icons">
+
+      <div (click)="shareOnSocialMedia(this.urls['twitter'])">
+        <img src="assets/icons/twitter.svg" alt="Twitter">
+      </div>
+      <div (click)="shareOnSocialMedia(this.urls['facebook'])">
+        <img src="assets/icons/facebook.svg" alt="Facebook">
+      </div>
+      <div (click)="shareOnSocialMedia(this.urls['linkedin'])">
+        <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+      </div>
+      <div (click)="shareOnSocialMedia(this.urls['whatsapp'])">
+        <img src="assets/icons/whatsapp.svg" alt="WhatsApp">
+      </div>
+
+      <div (click)="shareOnSocialMedia(this.urls['reddit'])">
+        <img src="assets/icons/reddit.svg" alt="Reddit">
+      </div>
+      <div (click)="shareOnSocialMedia(this.urls['telegram'])">
+        <img src="assets/icons/telegram.svg" alt="Telegram">
+      </div>
+    </div>
   </div>
+  <small>{{observation}}</small>
 </div>
